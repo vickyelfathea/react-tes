@@ -1,0 +1,28 @@
+.navbar {
+  z-index: 2;
+  position: relative;
+  height: 100px;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.07);
+  padding: 0 125px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page {
+  size: 14px;
+  color: #2569a5;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  padding-right: 24px;
+  border-bottom: 4px solid transparent;
+}
+
+.pagecoin {
+  size: 14px;
+  font-weight: 700;
+  color: #2569a5;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  border-bottom: solid 4px #2569a5;
+}

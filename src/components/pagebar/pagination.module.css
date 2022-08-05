@@ -1,0 +1,21 @@
+.pagenumber {
+  display: flex;
+}
+
+.pagenumber a {
+  border: solid 1px #bcc9da;
+  margin-left: 8px;
+  padding: 8px;
+  border-radius: 9px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.pagenumber a:nth-child(2) {
+  background-color: #1b91e4;
+  font-weight: 600;
+  color: white;
+  border: none;
+}

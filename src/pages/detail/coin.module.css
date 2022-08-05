@@ -1,0 +1,86 @@
+.content {
+  background-color: #f3f7fb;
+  position: relative;
+  z-index: -1;
+  height: 603px;
+  padding: 0 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  position: absolute;
+  margin: 0 125px;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: capitalize;
+  color: #acbccf;
+}
+
+.main {
+  width: 1188px;
+  height: 499px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 148, 255, 0.25);
+  border-radius: 10px;
+  padding: 24px 30px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #2569a5;
+}
+
+.coins {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.coins th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3783c6;
+  color: white;
+}
+
+.coins tr:nth-child(odd) {
+  background-color: #f3f7fb;
+}
+
+.coins th,
+td {
+  padding: 1em;
+}
+
+.footer {
+  background-color: #1d4279;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.detail {
+  margin-top: 50px;
+  font-size: 20px;
+  width: 100%;
+}
+.detail p {
+  margin-bottom: 10px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+}
+
+.detail .label {
+  font-weight: 400;
+  width: 20%;
+}
